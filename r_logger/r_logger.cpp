@@ -16,7 +16,7 @@ R_logger::R_logger(QString i_name_obj, QObject *parent) :
   ,m_create_file (false)
   ,m_Name(i_name_obj)
 {
-   // g=1;
+    g=1;
     R_Debug::Write(level8,m_Name,__PRETTY_FUNCTION__);
 
 }
